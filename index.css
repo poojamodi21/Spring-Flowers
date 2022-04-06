@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ee6c4d ;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.list-items{
+    padding-left: 20px;
+}
+
+.logo{
+    margin-left: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font: 1.5em sans-serif;
+}
+
+li{
+    list-style-type:none;
+}
+
+ul{
+    margin-right: 100px;
+}
+
+section{
+    height: 100vh;
+    background-color: #293241;
+}
+
+span{
+    padding: 4px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome{
+    text-align: center;
+    color: white;
+    font: 2em sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #293241;
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+.right{
+    height: 100%;
+    width: 80%;
+    background-color:#3d5a80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: 1.2em sans-serif;
+}
+
+.info-card{
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.username{
+    color: white;
+    font: 2em sans-serif;
+}
+
+.card{
+    text-align: center;
+}
+
+.table-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #293241;
+    color: aliceblue;
+}
+
+table{
+    text-align: center;
+}
+
+.blue{
+    background-color: #3d5a80;
+}
